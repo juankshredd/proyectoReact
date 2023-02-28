@@ -37,7 +37,7 @@ root.render(
       }}>
         <EstaDisponible/>
       </ProteinaCard>
-    <CreatinaCard nombre="Creatina Universal nutrition"
+    <CreatinaCard  nombre="Creatina Universal nutrition"
       precio={75000}
       disponible={EstaDisponible.EstaDisponible}
       creatina_facts={{
