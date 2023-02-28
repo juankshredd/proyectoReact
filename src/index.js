@@ -5,6 +5,7 @@ import { ProteinaCard } from "./Product";
 import { Navegacion } from "./Navegacion";
 import { CreatinaCard } from "./Product";
 import {Boton} from './Boton'
+import { TaskCard } from "./Task";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -46,9 +47,9 @@ root.render(
       }}>
         <EstaDisponible/>
     </CreatinaCard>
-    <Boton text=""/>
     <Boton text="Click me"/>
     <Boton text="Go to"/>
     <Boton text="Comprar tambien"/>
+    <TaskCard/>
   </>
 );
